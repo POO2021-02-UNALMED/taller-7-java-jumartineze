@@ -14,12 +14,12 @@ public class Periodico extends Escrito {
 	}
 
 	@Override
-	int palabrasTotales(int parametro) {
+	public int palabrasTotales(int parametro) {
 		return this.getPaginas()*parametro*10;
 	}
 
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		return interpretacion;
 	}
 

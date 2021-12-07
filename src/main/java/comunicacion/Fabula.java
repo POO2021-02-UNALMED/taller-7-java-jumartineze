@@ -12,12 +12,12 @@ public class Fabula extends Escrito {
 	}
 
 	@Override
-	int palabrasTotales(int parametro) {
+	public int palabrasTotales(int parametro) {
 		return this.getPaginas()*parametro;
 	}
 
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		return interpretacion;
 	}
 
